@@ -1,0 +1,77 @@
+header.main-header {
+	background-image: url(../images/hero.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 90vh;
+	width: 100%;
+	position: relative;
+}
+
+.main__nav {
+	display: flex;
+	padding: 40px 50px;
+	justify-content: space-between;
+	align-items: center;
+	font-family: $primary-font-family;
+		ul {
+			display: flex;
+			li a {
+				margin: 0 15px;
+				color: $maincolor;
+				text-transform: uppercase;
+				letter-spacing: $quarter-em;
+			}
+		}
+}
+
+.social__icons a {
+	color: $maincolor;
+	margin: 0 0 0 15px;
+}
+
+h2 {
+	text-align: center;
+	padding: 10% 0;
+	color: white;
+	font-family: $secondary-font-family;
+	font-weight: $regular;
+	text-transform: uppercase;
+	letter-spacing: $half-em;
+		span {
+			font-size: $heading-two-span;
+			font-family: $primary-font-family;
+			font-weight: $bold;
+			display: block;
+				span {
+					color: $accentcolor;
+					display: inline;
+				}
+		}
+}
+
+// header .sticker {
+// 	border-radius: 50%;
+// 	background-color: rgba(255,255,255, .5);
+// 	width: 90px;
+// 	height: 90px;
+// 	padding: 5px;
+// 	margin:0 auto;
+// 	position: relative;
+// 	top: 140px;
+// }
+
+// header .sticker div {
+// 	width: 80px;
+// 	height: 80px;
+// 	background-color: $accentcolor;
+// 	border-radius: 50%;
+// 	// border: 2px solid rgba(255,255,255,0.5);
+// 	position: relative;
+// 	display: flex;
+// 		img {
+// 			// position: absolute;
+// 			margin: auto;
+// 		}
+// }
+
+

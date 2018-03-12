@@ -1,0 +1,13 @@
+footer.main-footer {
+	background-color: $black2;
+	padding: $pad30;
+	font-family: $primary-font-family;
+	font-weight: $regular;
+		p {
+			color: #828282;
+			text-align: center;
+		}
+			a {
+				color: $maincolor;
+			}
+}

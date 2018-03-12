@@ -1,0 +1,472 @@
+// /* Portrait tablet and small desktops */
+// @media (max-width: 940px) {
+// }
+
+// /* Landscape phone to portrait tablet */
+// @media (max-width: 768px) {
+// }
+
+// /* Landscape phones and down */
+// @media (max-width: 480px) {
+// }
+
+
+
+@media (max-width: 1122px) {
+	// WRAPPER
+
+	.wrapper{
+		padding: 0 30px;
+	}
+
+	nav.overlay__menu {
+		display: block;
+	}
+
+	// HEADER
+
+	h2 {
+		padding: 60px 0 60px 0;
+	}
+
+	.hamburger__container {
+		visibility: visible;
+	}
+
+	.nav__list ul {
+		display: none;
+	}
+
+	.social__icons {
+		display: none;
+	}
+
+	// OVERLAY
+
+	.overlay {
+		visibility: visible;
+	}
+
+	// SERVICES
+
+	.inner__wrapper {
+		max-width: 490px;
+	}
+
+	// CONTACT
+
+	.contact__col--social .fa {
+		width: 30px;
+		height: 30px;
+	}
+}
+
+@media screen and (max-width: 970px) {
+	// HEADER
+
+	header.main-header{
+		height: 90vh;
+	}
+
+	h2 {
+		padding: 5% 0;
+	}
+
+	.nav__list ul {
+		display: none;
+	}
+
+	.back__to__top{
+		display: none;
+	}
+
+	
+	// SKILLS
+
+	.skills, .process__item {
+		right: 0;
+	}
+
+	.skills {
+		top: 70px;
+	}
+
+	// PROCESS
+
+	.cta button:hover {
+
+	}
+
+	// SERVICES
+
+	.inner__wrapper {
+		max-width: 444px;
+	}
+
+	.service__col1 {
+		padding: 10% 0;
+	}
+}
+
+
+@media screen and (max-width: 770px) {
+
+	// HEADER 
+
+	h2 span {
+		font-size: 70px;
+	}
+
+	.rect__slider {
+		margin: 200px auto;
+	}
+
+	.nav__list ul {
+		display: none;
+	}
+
+	//ABOUT
+
+	.about__cta button {
+
+	}
+
+	.about__container2 .about__image,
+	.process__container1, .about__container2 .skills {
+		width: 100%;
+		float: none;
+	}
+
+	.about__image img,
+	.process__image img {
+		width: 100%;
+	}
+
+	// TEAM
+
+	// .team__container {
+	// 	flex-wrap: wrap;
+	// }
+
+	.team__member {
+		width: calc(50% - 20px);
+		margin: 20px 10px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.team__image {
+		margin: 0 auto;
+	}
+
+	// SERVICES
+
+	.inner__wrapper {
+		max-width: 100%;
+		padding: 0 155px 0 0;
+	}
+
+	.skills, .process__item {
+		position: inherit;
+	}
+
+	.service__col1, .service__col2 {
+		width: 100%;
+		float: none;
+	}
+
+	.service__col1 {
+		display: flex;
+		align-items: center;
+		height: 900px;
+	}
+
+	.service__icon {
+		bottom: 0;
+	}
+
+	// WORKS
+
+	.work__gallery .gallery__item {
+		width: 100%;
+		margin: 20px 0;
+	}
+
+	// FUN FACTS
+
+	.fun__fact__image {
+		width: 35px;
+		height: 35px;
+	}
+
+	.fun__fact__container .fun__fact__item {
+		padding: 40px;
+	}
+
+	//PROCESS
+
+	.process__container2 .process__item {
+		width: 100%;
+	}
+
+	// BLOG 
+
+	article{
+		flex-direction: column;
+	}
+
+	.blog__content p, .blog__content h3, .meta {
+		text-align: center;
+	}
+	
+	.blog__content {
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+	}
+
+	.meta {
+		width: 184px;
+		margin: 20px auto;
+	}
+
+	.meta ul {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.meta li {
+		float: none;
+		margin: 0 10px;
+	}
+
+	.blog__content button {
+		width: 20%;
+		margin: 20px auto;
+	}
+
+	// CONTACT
+
+	.contact__col {
+		float: none;
+		clear: both;
+		width: calc(100% - 150px);
+		margin-left: 75px;
+		margin-right: 75px;
+	}
+
+	.contact__col:first-child,
+	.contact__col:first-child h3,
+	.contact__col:last-child,
+	.contact__col:last-child h3 {
+		text-align: center;
+	}
+
+	.contact__col:nth-child(2) {
+		margin: 75px;
+		padding: 38px 0;
+		border-bottom: 1px solid rgba(255,255,255,0.2);
+		border-top: 1px solid rgba(255,255,255,0.2);
+	}
+
+	.contact__col--social ul {
+		margin: 25px 0;
+	}
+
+	// BUTTONS
+
+	.about__cta button:hover {
+		background-color: transparent;
+		border: 1px solid #1a1a1a;
+		color: #1a1a1a;
+	}
+
+	.team__member img:hover {
+		border: 1px solid #f5f5f5;
+	}
+
+	.previous__page:hover,
+	.next__page:hover {
+		background-color: transparent;
+		color: #1a1a1a;
+		border: 1px solid #1a1a1a;
+	}
+
+	.work__nav ul li:hover {
+		background-color: $black2;
+		color: white;
+	}
+
+	.work__gallery .gallery__item:hover {
+		border: 1px solid #f5f5f5;
+	}
+
+	.cta button:hover {
+		background-color: transparent;
+		border: 1px solid #1a1a1a;
+		color: #1a1a1a;
+	}
+
+	.number__pagination ul li a:hover {
+		color: #d0d0d0;
+	}
+
+	.bubble__slider li:hover {
+		background-color: #606060;
+		border: none;
+		width: 10px;
+		height: 10px;
+		transform: scale(1);
+	}
+
+	.contact__col--social .fa:hover {
+		background-color: transparent;
+		border: 1px solid white;
+		color: white;
+	}
+
+
+}
+
+@media screen and (max-width: 480px) {
+	// HEADER
+
+	header.main-header {
+		background-attachment: scroll;
+		height: 100%;
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 16px;
+		width: 70px;
+	}
+
+	h2 {
+		font-size: 11px;
+		padding: 14% 0;
+	}
+
+	.main__heading span {
+		font-size: 25px;
+	}
+	
+	// .main-heading .rect__slider {
+	// 	margin: 100px auto 0 auto;
+	// }
+
+	// SERVICE
+
+	.inner__wrapper {
+		padding: 0 20px;
+	}
+
+	.service__icon {
+		display: none;
+	}
+
+	.service__col1 h3,
+	.service__col1 h4,
+	.service__col1 p {
+		text-align: center;
+	}
+
+	//TEAM
+
+	.team__container {
+		flex-wrap: wrap;
+	}
+
+	// WORKS
+
+	.work__nav ul {
+		flex-direction: column;
+		width: 0;
+	}
+
+	.work__nav ul li {
+		margin: 1px 0;
+	}
+
+	.work__nav ul li:first-child {
+		border-radius: 0;
+	}
+
+	.work__nav ul li:last-child {
+		border-radius: 0;
+	}
+
+	// FUN FACTS 
+
+	.fun-facts {
+		background-image: none;
+		background-color: $black1;
+	}
+
+	.fun__fact__container {
+		flex-direction: column;
+	}
+
+
+	.fun__fact__container .fun__fact__item {
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	// PRICING
+
+	.pricing__container {
+		display: block;
+	}
+
+	.pricing__col--1,
+	.pricing__col--2,
+	.pricing__col--3 {
+		width: 100%;
+		margin: 120px 0 60px 0;
+	}
+
+	// CONTACT FORM 
+
+	.form__col--1,
+	.form__col--2 {
+		width: 100%;
+	}
+
+	// CONTACT
+
+	.contact__col {
+		float: none;
+		clear: both;
+		width: calc(100% - 50px);
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+
+	.contact__col:first-child,
+	.contact__col:first-child h3,
+	.contact__col:last-child,
+	.contact__col:last-child h3 {
+		text-align: center;
+	}
+
+	.contact__col:nth-child(2) {
+		margin: 25px;
+		padding: 38px 0;
+		border-bottom: 1px solid rgba(255,255,255,0.2);
+		border-top: 1px solid rgba(255,255,255,0.2);
+	}
+
+	.contact__col:last-child {
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+
+	.contact__col--social ul {
+		margin: 25px 0;
+	}
+}
+
+
+
+
